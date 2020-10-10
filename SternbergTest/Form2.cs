@@ -252,7 +252,7 @@ namespace SternbergTest
                         Console.WriteLine(TimeCheck[userIndex].ToString());
                     }
                     break;
-                case Keys.Z:
+                case Keys.Q:
                     if (userTestTime)
                     {
                         workerObject.RequestStop();
