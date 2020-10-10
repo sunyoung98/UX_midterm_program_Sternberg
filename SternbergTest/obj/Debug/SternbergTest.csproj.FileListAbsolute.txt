@@ -8,3 +8,13 @@ C:\Users\tjsdu\source\repos\SternbergTest\SternbergTest\obj\Debug\SternbergTest.
 C:\Users\tjsdu\source\repos\SternbergTest\SternbergTest\obj\Debug\SternbergTest.exe
 C:\Users\tjsdu\source\repos\SternbergTest\SternbergTest\obj\Debug\SternbergTest.pdb
 C:\Users\tjsdu\source\repos\SternbergTest\SternbergTest\obj\Debug\SternbergTest.Form2.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Debug\SternbergTest.exe.config
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Debug\SternbergTest.exe
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Debug\SternbergTest.pdb
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.csprojAssemblyReference.cache
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.Form1.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.Form2.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.Properties.Resources.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.csproj.GenerateResource.cache
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.exe
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Debug\SternbergTest.pdb

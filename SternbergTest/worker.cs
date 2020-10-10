@@ -19,7 +19,7 @@ namespace SternbergTest
             {
                 if (sw.ElapsedMilliseconds >= 5000)
                 {
-                    SendKeys.SendWait("{ADD}");
+                    SendKeys.SendWait("Q");
                 }
                 Task.Delay(1);
             }
