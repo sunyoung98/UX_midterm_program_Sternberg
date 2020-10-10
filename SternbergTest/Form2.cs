@@ -29,6 +29,7 @@ namespace SternbergTest
         Worker workerObject = new Worker();
         Stopwatch sw;
         String fileName;
+        Boolean can_cancel = true;
         public Form2()
         {
             InitializeComponent();
@@ -42,6 +43,7 @@ namespace SternbergTest
 
         private async void StartTest()
         {
+            can_cancel = false;
             label2.Show();
             label1.Hide();
             TimeCheck = new double[20];
@@ -66,9 +68,19 @@ namespace SternbergTest
                     label2.Text = "   "+ RandomNumber[i].ToString();
                     label2.Update();
                     userTestTime = true;
-                    workerObject.DelayAsync(sw);
-                  
+                    int result = await workerObject.DelayAsync(sw);
+                    if (result == -1)
+                    {
+                        workerObject.RequestStop();
+                        sw.Stop();
+                        Console.WriteLine("Nothing");
+                        userInput[userIndex] = -1;
+                        saveTF[userIndex] = false;
+                        TimeCheck[userIndex] = 5000;
+                    }
+
                 });
+                
 
                 
             }
@@ -114,8 +126,8 @@ namespace SternbergTest
             label1.Update();
             label1.Show();
             CloseBtn.Show();
-            
 
+            can_cancel = true;
         }
 
         public T[] Shuffle<T>(T[] array)
@@ -252,19 +264,13 @@ namespace SternbergTest
                         Console.WriteLine(TimeCheck[userIndex].ToString());
                     }
                     break;
-                case Keys.Q:
-                    if (userTestTime)
-                    {
-                        workerObject.RequestStop();
-                        sw.Stop();
-                        Console.WriteLine("Nothing");
-                        userInput[userIndex] = -1;
-                        saveTF[userIndex] = false;
-                        TimeCheck[userIndex] = 5000;
-                    }
-                    break;
-
             }
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!can_cancel)
+                e.Cancel=true;
         }
     }
 }

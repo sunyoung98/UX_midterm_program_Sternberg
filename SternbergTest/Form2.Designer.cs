@@ -42,9 +42,10 @@
             // 
             this.btn3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn3.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn3.Location = new System.Drawing.Point(100, 200);
+            this.btn3.Location = new System.Drawing.Point(114, 250);
+            this.btn3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(179, 52);
+            this.btn3.Size = new System.Drawing.Size(205, 65);
             this.btn3.TabIndex = 8;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
@@ -54,9 +55,10 @@
             // 
             this.btn4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn4.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn4.Location = new System.Drawing.Point(450, 200);
+            this.btn4.Location = new System.Drawing.Point(514, 250);
+            this.btn4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(179, 52);
+            this.btn4.Size = new System.Drawing.Size(205, 65);
             this.btn4.TabIndex = 9;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
@@ -66,9 +68,10 @@
             // 
             this.btn5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn5.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn5.Location = new System.Drawing.Point(100, 300);
+            this.btn5.Location = new System.Drawing.Point(114, 375);
+            this.btn5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(179, 52);
+            this.btn5.Size = new System.Drawing.Size(205, 65);
             this.btn5.TabIndex = 10;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
@@ -78,9 +81,10 @@
             // 
             this.btn6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn6.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn6.Location = new System.Drawing.Point(450, 300);
+            this.btn6.Location = new System.Drawing.Point(514, 375);
+            this.btn6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(179, 52);
+            this.btn6.Size = new System.Drawing.Size(205, 65);
             this.btn6.TabIndex = 11;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
@@ -93,7 +97,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 24F);
-            this.label1.Location = new System.Drawing.Point(100, 100);
+            this.label1.Location = new System.Drawing.Point(114, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(518, 32);
             this.label1.TabIndex = 12;
@@ -104,7 +108,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 30F);
-            this.label2.Location = new System.Drawing.Point(286, 163);
+            this.label2.Location = new System.Drawing.Point(327, 204);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 40);
             this.label2.TabIndex = 13;
@@ -115,9 +119,10 @@
             // 
             this.startBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.startBtn.Font = new System.Drawing.Font("굴림", 23F);
-            this.startBtn.Location = new System.Drawing.Point(300, 301);
+            this.startBtn.Location = new System.Drawing.Point(343, 376);
+            this.startBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.startBtn.Name = "startBtn";
-            this.startBtn.Size = new System.Drawing.Size(179, 52);
+            this.startBtn.Size = new System.Drawing.Size(205, 65);
             this.startBtn.TabIndex = 14;
             this.startBtn.Text = "Start";
             this.startBtn.UseVisualStyleBackColor = false;
@@ -127,9 +132,10 @@
             // 
             this.CloseBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CloseBtn.Font = new System.Drawing.Font("굴림", 23F);
-            this.CloseBtn.Location = new System.Drawing.Point(300, 301);
+            this.CloseBtn.Location = new System.Drawing.Point(343, 376);
+            this.CloseBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CloseBtn.Name = "CloseBtn";
-            this.CloseBtn.Size = new System.Drawing.Size(179, 52);
+            this.CloseBtn.Size = new System.Drawing.Size(205, 65);
             this.CloseBtn.TabIndex = 15;
             this.CloseBtn.Text = "Close";
             this.CloseBtn.UseVisualStyleBackColor = false;
@@ -137,9 +143,9 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 562);
             this.Controls.Add(this.CloseBtn);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.label2);
@@ -148,8 +154,10 @@
             this.Controls.Add(this.btn5);
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn3);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form2_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();

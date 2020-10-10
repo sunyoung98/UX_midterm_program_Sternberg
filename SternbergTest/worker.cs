@@ -12,17 +12,18 @@ namespace SternbergTest
     {
         private volatile bool _shouldStop = false;
 
-        public async Task DelayAsync(Stopwatch sw)
+        public async Task<int> DelayAsync(Stopwatch sw)
         {
             Console.WriteLine("Delay...");
             while (!_shouldStop)
             {
                 if (sw.ElapsedMilliseconds >= 5000)
                 {
-                    SendKeys.SendWait("Q");
+                    return -1;
                 }
                 Task.Delay(1);
             }
+            return 1;
         }
         public void RequestStop()
         {
