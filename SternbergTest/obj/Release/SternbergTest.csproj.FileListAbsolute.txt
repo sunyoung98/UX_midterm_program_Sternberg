@@ -1,0 +1,9 @@
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Release\SternbergTest.exe.config
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Release\SternbergTest.exe
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\bin\Release\SternbergTest.pdb
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.Form1.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.Form2.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.Properties.Resources.resources
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.csproj.GenerateResource.cache
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.exe
+C:\Users\tjsdu\Desktop\UX_midterm_program_Sternberg\SternbergTest\obj\Release\SternbergTest.pdb
