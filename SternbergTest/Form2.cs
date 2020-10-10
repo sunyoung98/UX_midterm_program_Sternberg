@@ -150,7 +150,7 @@ namespace SternbergTest
                 {
                     while (true)
                     {
-                            RandomNumberSet[index, i] = rand.Next(1, 9);
+                            RandomNumberSet[index, i] = rand.Next(1, 10);
                         isSame = false;
                         for (int j = 0; j < i; ++j)
                         {
@@ -176,7 +176,9 @@ namespace SternbergTest
                 else
                     realTF[RandomTF[i]] = 0;
             }
-
+            for (int i = 0; i < 20; i++)
+                for (int j = 0; j < num; j++)
+                    Console.Write(RandomNumberSet[i, j]+" " );
 
         }
 
