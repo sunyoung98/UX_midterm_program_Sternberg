@@ -1,0 +1,21 @@
+Index, Number Set(), Number, User Input, T/F, Time
+0 (1 6 8 7 2 3 )5,True,False,380Index, Number Set(), Number, User Input, T/F, Time
+1 (3 7 8 1 5 6 )3,True,True,319Index, Number Set(), Number, User Input, T/F, Time
+2 (8 6 7 2 4 5 )1,True,False,236Index, Number Set(), Number, User Input, T/F, Time
+3 (2 3 1 8 5 6 )5,False,False,454Index, Number Set(), Number, User Input, T/F, Time
+4 (4 7 2 8 6 3 )4,False,False,274Index, Number Set(), Number, User Input, T/F, Time
+5 (8 7 4 5 1 3 )7,False,False,244Index, Number Set(), Number, User Input, T/F, Time
+6 (4 2 8 5 6 1 )4,True,True,316Index, Number Set(), Number, User Input, T/F, Time
+7 (6 2 5 8 7 3 )5,True,True,152Index, Number Set(), Number, User Input, T/F, Time
+8 (4 2 7 5 3 6 )3,True,True,126Index, Number Set(), Number, User Input, T/F, Time
+9 (3 1 4 6 2 8 )2,False,False,274Index, Number Set(), Number, User Input, T/F, Time
+10 (3 6 7 8 5 1 )2,False,True,180Index, Number Set(), Number, User Input, T/F, Time
+11 (5 2 1 7 6 8 )5,True,True,191Index, Number Set(), Number, User Input, T/F, Time
+12 (3 6 8 7 2 5 )1,True,False,106Index, Number Set(), Number, User Input, T/F, Time
+13 (3 6 5 4 1 2 )8,False,True,241Index, Number Set(), Number, User Input, T/F, Time
+14 (7 3 8 4 1 5 )6,False,True,79Index, Number Set(), Number, User Input, T/F, Time
+15 (2 1 5 4 3 7 )6,True,False,290Index, Number Set(), Number, User Input, T/F, Time
+16 (7 8 4 1 6 5 )1,True,True,196Index, Number Set(), Number, User Input, T/F, Time
+17 (1 7 6 2 4 3 )8,False,True,304Index, Number Set(), Number, User Input, T/F, Time
+18 (4 2 1 7 8 6 )5,True,False,296Index, Number Set(), Number, User Input, T/F, Time
+19 (8 4 6 2 3 5 )7,False,True,273

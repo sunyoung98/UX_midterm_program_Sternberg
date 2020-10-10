@@ -1,0 +1,21 @@
+Index, Number Set(), Number, User Input, T/F, Time
+0 (5 4 7 ) , 5,False,False,322
+1 (5 1 6 ) , 3,False,True,265
+2 (8 7 6 ) , 8,TimeOut,False,5000
+3 (1 7 8 ) , 1,False,False,252
+4 (5 2 7 ) , 1,False,True,204
+5 (7 2 6 ) , 2,False,False,152
+6 (5 2 4 ) , 2,False,False,12
+7 (2 7 3 ) , 7,TimeOut,False,5000
+8 (7 8 2 ) , 3,False,True,3134
+9 (2 7 4 ) , 6,False,True,2608
+10 (2 6 3 ) , 2,False,False,124
+11 (3 5 7 ) , 8,False,True,552
+12 (8 5 1 ) , 7,False,True,524
+13 (7 3 4 ) , 3,False,False,293
+14 (1 4 8 ) , 6,False,True,265
+15 (6 2 1 ) , 8,False,True,263
+16 (8 2 3 ) , 5,False,True,260
+17 (1 2 5 ) , 1,False,False,302
+18 (3 8 2 ) , 4,False,True,256
+19 (1 7 6 ) , 7,False,False,249
