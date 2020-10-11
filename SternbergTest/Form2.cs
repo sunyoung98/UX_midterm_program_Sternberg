@@ -217,6 +217,7 @@ namespace SternbergTest
             label1.TextAlign = ContentAlignment.MiddleCenter;
            //label2.Show();
             startBtn.Show();
+            startBtn.Focus();
             RandomNumberGenerate(n);
         }
         private void input_btn_Click(object sender, EventArgs e)

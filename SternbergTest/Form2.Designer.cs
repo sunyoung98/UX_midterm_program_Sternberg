@@ -57,7 +57,7 @@
             // 
             this.btn4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn4.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn4.Location = new System.Drawing.Point(514, 250);
+            this.btn4.Location = new System.Drawing.Point(558, 250);
             this.btn4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(205, 65);
@@ -83,7 +83,7 @@
             // 
             this.btn6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn6.Font = new System.Drawing.Font("굴림", 23F);
-            this.btn6.Location = new System.Drawing.Point(514, 375);
+            this.btn6.Location = new System.Drawing.Point(558, 375);
             this.btn6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(205, 65);
@@ -94,9 +94,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 24F);
             this.label1.Location = new System.Drawing.Point(114, 125);
