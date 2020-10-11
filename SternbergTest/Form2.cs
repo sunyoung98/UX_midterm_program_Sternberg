@@ -36,9 +36,11 @@ namespace SternbergTest
             num_buttons = new Button[] { btn3, btn4, btn5, btn6 };
             label2.Hide();
             startBtn.Hide();
-            KeyPreview = true;
             Console.WriteLine(System.Windows.Forms.Application.StartupPath);
             CloseBtn.Hide();
+            labelIndex.Hide();
+            label3.Text = "";
+            KeyPreview = true;
         }
 
         private async void StartTest()
@@ -49,10 +51,15 @@ namespace SternbergTest
             TimeCheck = new double[20];
             saveTF = new Boolean[20];
             startBtn.Hide();
+            labelIndex.Show();
+
             for (int i = 0; i < 20; i++)
             {
                 await Task.Run(async () =>
                 {
+                    int index = i + 1;
+                    labelIndex.Text = index.ToString();
+                    labelIndex.Update();
                     sw = new Stopwatch();
                     workerObject.RequestStart();
                     userTestTime = false;
@@ -62,10 +69,17 @@ namespace SternbergTest
                     {
                         label2.Text += RandomNumberSet[i, j].ToString() + "  ";
                     }
+                    label2.Left = (this.ClientSize.Width - label2.Width) / 2;
+                    label2.Top = (this.ClientSize.Height - label2.Height) / 2;
                     label2.Update();
                     Task.Delay(5000).Wait();
                     sw.Start();
-                    label2.Text = "   "+ RandomNumber[i].ToString();
+                    label3.Text = RandomNumber[i].ToString() + "이 있었으면 v, 없었으면 n";
+                    label3.Left= (this.ClientSize.Width - label3.Width) / 2; 
+                    label3.Update();
+                    label2.Text =  RandomNumber[i].ToString();
+                    label2.Left = (this.ClientSize.Width - label2.Width) / 2;
+                    label2.Top = (this.ClientSize.Height - label2.Height) / 2;
                     label2.Update();
                     userTestTime = true;
                     int result = await workerObject.DelayAsync(sw);
@@ -78,7 +92,8 @@ namespace SternbergTest
                         saveTF[userIndex] = false;
                         TimeCheck[userIndex] = 5000;
                     }
-
+                    label3.Text="";
+                    label3.Update();
                 });
                 
 
@@ -270,7 +285,7 @@ namespace SternbergTest
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (!can_cancel)
-                e.Cancel=true;
+                Application.ExitThread();
         }
     }
 }

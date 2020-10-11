@@ -36,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.startBtn = new System.Windows.Forms.Button();
             this.CloseBtn = new System.Windows.Forms.Button();
+            this.labelIndex = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn3
@@ -141,11 +143,35 @@
             this.CloseBtn.UseVisualStyleBackColor = false;
             this.CloseBtn.Click += new System.EventHandler(this.input_btn_Click);
             // 
+            // labelIndex
+            // 
+            this.labelIndex.AutoSize = true;
+            this.labelIndex.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labelIndex.Font = new System.Drawing.Font("굴림", 30F);
+            this.labelIndex.Location = new System.Drawing.Point(23, 29);
+            this.labelIndex.Name = "labelIndex";
+            this.labelIndex.Size = new System.Drawing.Size(128, 40);
+            this.labelIndex.TabIndex = 16;
+            this.labelIndex.Text = "label3";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("굴림", 20F);
+            this.label3.Location = new System.Drawing.Point(207, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 27);
+            this.label3.TabIndex = 17;
+            this.label3.Text = ".";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 562);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelIndex);
             this.Controls.Add(this.CloseBtn);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.label2);
@@ -174,6 +200,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button startBtn;
         private System.Windows.Forms.Button CloseBtn;
+        private System.Windows.Forms.Label labelIndex;
+        private System.Windows.Forms.Label label3;
         //private System.Windows.Forms.Label label3;
     }
 }
